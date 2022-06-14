@@ -376,5 +376,9 @@ body {
   padding: 20px;
 }
 .logo_partners_item img {
-  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 200px;
+  width: 100%;
 }
