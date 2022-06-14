@@ -101,7 +101,7 @@ body {
 }
 
 .logo_baner_container {
-  background: url(/img/bg_logo_block.jpg) 50%/cover no-repeat;
+  background: url(/img/bg_logo_block.jpg) 50%/cover no-repeat fixed;
   margin: 0 auto 20px auto;
 }
 
@@ -381,4 +381,10 @@ body {
   display: flex;
   max-width: 200px;
   width: 100%;
+}
+
+@media (max-width: 575px) {
+  .logo_baner_container {
+    background: url(/img/bg_logo_block.jpg) 50%/cover no-repeat;
+  }
 }

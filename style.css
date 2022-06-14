@@ -382,3 +382,9 @@ body {
   max-width: 200px;
   width: 100%;
 }
+
+@media (max-width: 575px) {
+  .logo_baner_container {
+    background: url(/img/bg_logo_block.jpg) 50%/cover no-repeat;
+  }
+}
