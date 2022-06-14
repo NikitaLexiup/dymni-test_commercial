@@ -101,7 +101,7 @@ body {
 }
 
 .logo_baner_container {
-  background: url(/img/bg_logo_block.jpg) 50%/cover no-repeat fixed;
+  background: url(/img/bg_logo_block.jpg) 50%/cover no-repeat;
   margin: 0 auto 20px auto;
 }
 
