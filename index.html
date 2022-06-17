@@ -17,17 +17,35 @@
     <!-- Отображаемое тело страницы -->
     <body>
         <!-- Меню -->
+        <script src="fixmenu.js"></script>
         <header class="header">
-			<nav class="header_menu_container">
+           
+			<nav class="header_menu_container"> 
                 <ul class="header_menu_block">
+                    <li><img class="_style_logo_menu" src="/img/Без заголовка.png" alt=""></li>
                     <li class="header_menu_button _style_btn_menu">Знайомство</li>
-               <!--   <li class="header_menu_button _style_btn_menu">Виробництво</li> -->
+                    <li class="header_menu_button _style_btn_menu">Виробництво</li>
                     <li class="header_menu_button _style_btn_menu">Про копчення</li>
-               <!-- <li class="header_menu_button _style_btn_menu">Продукти</li> -->
+                    <li class="header_menu_button _style_btn_menu">Продукти</li>
                     <li class="header_menu_button _style_btn_menu">Де купити</li>
-               <!-- <li class="header_menu_button _style_btn_menu">Контакти</li> -->
+                    <li class="header_menu_button _style_btn_menu">Контакти</li>
                 </ul>
             </nav>
+
+            <div class="header_menu_block_burger">
+                <div class="logo_burger_block">
+                    <img class="_style_logo_menu" src="/img/Без заголовка.png" alt=""></li>
+                </div>
+                <div class="burger_menu">
+                    <div class="burger_menu_block">
+                        <div class="burger_1"></div>
+                        <div class="burger_2"></div>
+                        <div class="burger_3"></div>
+                    </div>
+                       
+                </div>
+            </div>
+
         </header>
         <!-- Основная страница -->
         <main class="page">
@@ -54,6 +72,9 @@
                     </div>
                 </div>
                 <div class="discription_title_block2_container">
+                    <div class="img_block_3">
+                        <!-- <img class="img_auquauntance_block" src="/img/img_test_2.jpg" alt="">-->
+                     </div>
                     <div class="discription_title_block2">
                         <h2 class="discription_title">Продукти від «Димних традицій» стануть:</h2>
                         <ul>
@@ -74,19 +95,19 @@
                 <div class="title _modificator_titile">ЯК МИ ГОТУЄМО:</div>
                 <div class="cooking_process_cintainer">
                     <div class="cooking_process">
-                        <div class="img_cooking_process_1"></divclass>></div> 
+                        <div class="img_cooking_process_1"></divclass></div> 
                         <p class="text_cooking_process">БЕРЕМО М'ЯСО, РИБУ, ПТИЦЮ ВИЩОГО ГОТУНКУ</p>
                     </div>
                     <div class="cooking_process">
-                        <div class="img_cooking_process_2"></divclass>></div> 
+                        <div class="img_cooking_process_2"></divclass></div> 
                         <p class="text_cooking_process">ДОДАЄМО НАТУРАЛЬНІ СПЕЦІЇ ТА ТРАВИ</p>
                     </div>
                     <div class="cooking_process">
-                        <div class="img_cooking_process_3"></divclass>></div> 
+                        <div class="img_cooking_process_3"></divclass></div> 
                         <p class="text_cooking_process">ДОВГО-ДОВГО МАРИНУЄМО</p>
                     </div>
                     <div class="cooking_process">
-                        <div class="img_cooking_process_4"></divclass>></div> 
+                        <div class="img_cooking_process_4"></divclass></div> 
                         <p class="text_cooking_process">КОПТИМ СПРАВЖНІМ ДИМОМ</p>
                     </div>
                 </div>
@@ -108,32 +129,19 @@
              
         </main>
         <!-- Подвал -->
-       <footer class="footer">
-           
+        <footer class="footer">
+            <div class="logo_block_footer">
+                    <img class="logo_footer" src="/img/Без заголовка.png" alt="">
+            </div>
+            <div class="social_network_icons_block">
+                    <img class="fb_icon" src="/img/mycollection/png/001-facebook.png" alt="">
+                    <img class="inst_icon" src="/img/mycollection/png/004-instagram.png" alt="">
+            </div>
+            <div class="contact_block">
+                <p><span>Дзвони: </span>095 274 7886</p>
+                <p><span>Пиши: </span> dymni.tradicii@gmail.com</p>
+                <p><span>Заходь: </span>м. Київ, вул. Екскаваторна,24</p>
+            </div>
         </footer>
-
-<script type="module">
-  // Import the functions you need from the SDKs you need
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.3/firebase-app.js";
-  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.8.3/firebase-analytics.js";
-  // TODO: Add SDKs for Firebase products that you want to use
-  // https://firebase.google.com/docs/web/setup#available-libraries
-
-  // Your web app's Firebase configuration
-  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-  const firebaseConfig = {
-    apiKey: "AIzaSyCjYMLOcL94rtorKX6_UB3okwb_S_pKyOI",
-    authDomain: "dymni-test-87f6b.firebaseapp.com",
-    projectId: "dymni-test-87f6b",
-    storageBucket: "dymni-test-87f6b.appspot.com",
-    messagingSenderId: "594025883227",
-    appId: "1:594025883227:web:7f032aaf1ec8b6544f417e",
-    measurementId: "G-QZF1RT8E5N"
-  };
-
-  // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
-</script>
     </body>
 </html>
