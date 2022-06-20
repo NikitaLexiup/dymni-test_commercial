@@ -167,6 +167,10 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+body._lock {
+  overflow: hidden;
+}
+
 .page {
   max-width: 100%;
 }
