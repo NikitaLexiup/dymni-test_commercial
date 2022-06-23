@@ -116,8 +116,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header__logo {
-  padding: 10px;
-  height: 60px;
+  padding: 5px;
+  height: 68px;
   position: relative;
   z-index: 10;
   display: -webkit-box;
