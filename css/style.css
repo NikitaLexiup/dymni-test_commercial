@@ -621,8 +621,19 @@ body._lock {
             transform: rotate(45deg) translate(0px, 50%);
   }
 
+  .header__menu {
+    width: 0;
+    padding-right: 30px;
+  }
+
   .menu__body {
     position: fixed;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     top: 0;
     left: -100%;
     width: 100%;
@@ -630,7 +641,7 @@ body._lock {
     background-color: #111111;
     -webkit-transition: left 0.3s ease 0s;
     transition: left 0.3s ease 0s;
-    padding: 130px 30px 30px 30px;
+    padding: 100px 30px 30px 30px;
     overflow: auto;
   }
 
