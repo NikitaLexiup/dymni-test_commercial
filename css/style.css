@@ -991,7 +991,7 @@ body._lock {
   }
 
   .logo_baner_container {
-    background: url(/img/bg_section_1.jpg) 50%/cover no-repeat fixed;
+    background: url(/img/bg_section_1.jpg) 50%/cover no-repeat;
   }
 
   .logo_img_style {
