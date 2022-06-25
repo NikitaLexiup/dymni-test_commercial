@@ -188,7 +188,7 @@ body._lock {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: url(/img/bg_section_1.jpg) 50%/cover no-repeat fixed;
+  background: url(/img/bg_section_1.jpg) 50%/cover no-repeat;
   margin: 0 auto 20px auto;
 }
 
