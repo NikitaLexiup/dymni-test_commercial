@@ -189,7 +189,7 @@ body._lock {
       -ms-flex-pack: center;
           justify-content: center;
   background: url(/img/bg_section_1.jpg) 50%/cover no-repeat;
-  margin: 0 auto 20px auto;
+  margin: 0 auto;
 }
 
 .logo_banner_block {
@@ -409,6 +409,17 @@ body._lock {
   text-align: center;
   font-weight: 700;
   margin: 0 0 20px 0;
+  -webkit-transform: translate(0px, -70px);
+          transform: translate(0px, -70px);
+  opacity: 0;
+  -webkit-transition: all 0.8s ease 0s;
+  transition: all 0.8s ease 0s;
+}
+
+.title.__active_scroll {
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  opacity: 1;
 }
 
 .subtitle {
@@ -419,6 +430,32 @@ body._lock {
   font-size: 16px;
   font-weight: 500;
   padding: 20px;
+  -webkit-transform: translate(0px, 120px);
+          transform: translate(0px, 120px);
+  opacity: 0;
+  -webkit-transition: all 0.8s ease 0s;
+  transition: all 0.8s ease 0s;
+}
+
+.subtitle.__active_scroll {
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  opacity: 1;
+}
+
+.discription_title_block1 {
+  width: 50%;
+  -webkit-transform: translate(0px, 100px);
+          transform: translate(0px, 100px);
+  opacity: 0;
+  -webkit-transition: all 0.8s ease 0s;
+  transition: all 0.8s ease 0s;
+}
+
+.discription_title_block1.__active_scroll {
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  opacity: 1;
 }
 
 .discription_title_block1, .discription_title_block2 {
@@ -437,10 +474,6 @@ body._lock {
 }
 .discription_title_block1 ul:last-child, .discription_title_block2 ul:last-child {
   margin: 0 0 30px 0;
-}
-
-.discription_title_block1 {
-  width: 50%;
 }
 
 .discription_title {
@@ -469,6 +502,17 @@ body._lock {
 
 .discription_title_block2 {
   width: 50%;
+  -webkit-transform: translate(0px, 100px);
+          transform: translate(0px, 100px);
+  opacity: 0;
+  -webkit-transition: all 0.8s ease 0s;
+  transition: all 0.8s ease 0s;
+}
+
+.discription_title_block2.__active_scroll {
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  opacity: 1;
 }
 
 .partners_block {
