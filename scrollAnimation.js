@@ -7,7 +7,7 @@ if (animItems.length > 0) {
             const animItem = animItems[index];
             const animItemHaight = animItem.offsetHeight;
             const animItemOffset = offset(animItem).top;
-            const animStart = 2;
+            const animStart = 9;
 
             let animItemPoint = window.innerHeight - animItemHaight / animStart;
 
@@ -17,9 +17,9 @@ if (animItems.length > 0) {
 
             if ((pageYOffset > animItemOffset - animItemPoint) && (pageYOffset < animItemOffset + animItemHaight)) {
                 animItem.classList.add('__active_scroll');
-            } else {
-               animItem.classList.remove('__active_scroll');
-            }
+            } //else {
+              // animItem.classList.remove('__active_scroll');
+            //}
         }
     }
     

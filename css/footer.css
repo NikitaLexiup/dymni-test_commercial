@@ -164,25 +164,3 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 18px;
   font-weight: 700;
 }
-
-@media (max-width: 767px) {
-  .footer {
-    display: block;
-    padding: 30px 20px;
-  }
-
-  .logo_block_footer {
-    width: 100%;
-    margin: 0 0 20px 0;
-  }
-
-  .social_network_icons_block {
-    width: 100%;
-    margin: 0 0 20px 0;
-  }
-
-  .contact_block {
-    width: 100%;
-    text-align: center;
-  }
-}
