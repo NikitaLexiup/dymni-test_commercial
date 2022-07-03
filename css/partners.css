@@ -94,8 +94,56 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.page {
-  padding-top: 70px;
+.partners_container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.title_partners_name {
+  font-family: "Amatic SC", cursive;
+  font-size: 48px;
+  text-align: start;
+  font-weight: 700;
+  padding: 10px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.partners_adress_container {
   width: 100%;
-  min-height: 500px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.partners_adress_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 10px;
+}
+
+.partners_adress_city_title {
+  text-align: start;
+  line-height: 1.2;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px;
+}
+
+.partners_adress_column {
+  width: 50%;
+  min-width: 300px;
+  max-height: 100%;
+}
+.partners_adress_column h4 {
+  margin: 5px 0;
+}
+.partners_adress_column p {
+  text-align: start;
+  line-height: 1.2;
+  font-size: 14px;
+  font-weight: 300;
+  padding: 0 10px;
 }
