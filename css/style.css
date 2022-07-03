@@ -611,7 +611,6 @@ body._lock {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 20px;
-  font-size: 16px;
 }
 
 .view_more_btn {
@@ -628,6 +627,10 @@ body._lock {
   color: #ffffff;
   width: 260px;
   height: 70px;
+}
+.view_more_btn h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
 }
 
 .view_more_btn:hover {
