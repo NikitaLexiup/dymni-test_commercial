@@ -490,15 +490,18 @@ body._lock {
 .products_block {
   max-width: 900px;
   margin: 0 auto;
-  padding: 75px 0;
+  padding: 75px 0 25px 0;
+}
+.products_block .subtitle {
+  margin: 20px 0;
 }
 
-.fish_cut_container {
+._mod_products_container {
   max-width: 900px;
   margin: 0 auto;
 }
 
-.fish_cut_row {
+._mod_products_row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -517,11 +520,11 @@ body._lock {
   padding: 10px;
 }
 
-.image_fish_cut {
+.image_product {
   max-width: 250px;
 }
 
-.title_product_fish_cut {
+.title_product {
   max-width: 250px;
   font-size: 16px;
   line-height: 1.2;
@@ -530,6 +533,19 @@ body._lock {
   padding: 10px;
   height: 80px;
   background-color: rgba(221, 218, 218, 0.9529411765);
+}
+
+._mod_btn_container {
+  width: 100%;
+  height: 160px;
+  background-color: #000000;
+}
+._mod_btn_container .view_more_btn {
+  border: 1px solid #ffffff;
+}
+._mod_btn_container .view_more_btn:hover {
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
 }
 
 .partners_block {
