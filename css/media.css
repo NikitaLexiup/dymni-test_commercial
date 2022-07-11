@@ -316,6 +316,10 @@ h1, h2, h3, h4, h5, h6 {
     -ms-grid-row: 7;
     -ms-grid-column: 2;
   }
+
+  .content_body {
+    background-color: rgba(0, 0, 0, 0.1647058824);
+  }
 }
 @media (min-width: 991px) {
   .menu__list {
@@ -457,10 +461,6 @@ h1, h2, h3, h4, h5, h6 {
   .partners_grid_container > *:nth-child(13) {
     -ms-grid-row: 13;
     -ms-grid-column: 1;
-  }
-
-  .logo_img_style {
-    width: 300px;
   }
 }
 @media (max-width: 767px) {
