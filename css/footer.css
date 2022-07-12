@@ -91,6 +91,20 @@ h1, h2, h3, h4, h5, h6 {
 
 /*--------------------*/
 /*Обнуление*/
+@font-face {
+  font-family: "GothamPro";
+  src: url("/fonts/GothamPro.eot");
+  src: local("☺"), url("/fonts/GothamPro.woff") format("woff"), url("/fonts/GothamPro.ttf") format("truetype"), url("/fonts/GothamPro.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GothamPro";
+  src: url("/fonts/GothamPro-Bold.eot");
+  src: local("☺"), url("/fonts/GothamPro-Bold.woff") format("woff"), url("/fonts/GothamPro-Bold.ttf") format("truetype"), url("/fonts/GothamPro-Bold.svg") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
 .footer {
   background-color: #111;
   width: 100%;
@@ -156,10 +170,11 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
 }
 .contact_block p {
+  font-family: "GothamPro";
   display: block;
   padding: 5px;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
 }
 .contact_block p span {
   font-family: "Amatic SC", cursive;

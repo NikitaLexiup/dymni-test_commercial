@@ -89,6 +89,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------*/
+@font-face {
+  font-family: "GothamPro";
+  src: url("/fonts/GothamPro.eot");
+  src: local("☺"), url("/fonts/GothamPro.woff") format("woff"), url("/fonts/GothamPro.ttf") format("truetype"), url("/fonts/GothamPro.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GothamPro";
+  src: url("/fonts/GothamPro-Bold.eot");
+  src: local("☺"), url("/fonts/GothamPro-Bold.woff") format("woff"), url("/fonts/GothamPro-Bold.ttf") format("truetype"), url("/fonts/GothamPro-Bold.svg") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
 body {
   max-width: 100%;
   font-family: "Roboto", sans-serif;
@@ -179,7 +193,7 @@ body._lock {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  min-height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -252,6 +266,8 @@ body._lock {
 }
 
 .text_cooking_process {
+  font-family: "GothamPro";
+  font-weight: 700;
   color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -289,6 +305,8 @@ body._lock {
 }
 
 .text_smoking_process {
+  font-family: "GothamPro";
+  font-weight: 400;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -447,12 +465,13 @@ body._lock {
 }
 
 .subtitle {
+  font-family: "GothamPro";
+  font-weight: 700;
   text-align: center;
   max-width: 1000px;
   margin: 0 auto 20px auto;
   line-height: 1.2;
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 18px;
   padding: 0 10px;
   -webkit-transform: translate(0px, 120px);
           transform: translate(0px, 120px);
@@ -517,6 +536,8 @@ body._lock {
   display: -ms-flexbox;
   display: flex;
   padding: 5px;
+  font-family: "GothamPro";
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
 }
@@ -581,6 +602,8 @@ body._lock {
 }
 
 .title_product {
+  font-family: "GothamPro";
+  font-weight: 400;
   max-width: 250px;
   font-size: 16px;
   line-height: 1.2;
@@ -731,6 +754,8 @@ body._lock {
 }
 
 .view_more_btn {
+  font-family: "GothamPro";
+  font-weight: 700;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

@@ -90,6 +90,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------*/
+@font-face {
+  font-family: "GothamPro";
+  src: url("/fonts/GothamPro.eot");
+  src: local("☺"), url("/fonts/GothamPro.woff") format("woff"), url("/fonts/GothamPro.ttf") format("truetype"), url("/fonts/GothamPro.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GothamPro";
+  src: url("/fonts/GothamPro-Bold.eot");
+  src: local("☺"), url("/fonts/GothamPro-Bold.woff") format("woff"), url("/fonts/GothamPro-Bold.ttf") format("truetype"), url("/fonts/GothamPro-Bold.svg") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
 .header {
   position: fixed;
   top: 0;
@@ -136,10 +150,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .menu__list {
-  height: 30px;
+  height: 35px;
 }
 
 .menu__link {
+  font-family: "GothamPro";
+  font-weight: 700;
   color: #ffffff;
   font-size: 14px;
   text-transform: uppercase;

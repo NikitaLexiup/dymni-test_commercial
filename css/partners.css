@@ -89,6 +89,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------*/
+@font-face {
+  font-family: "GothamPro";
+  src: url("/fonts/GothamPro.eot");
+  src: local("☺"), url("/fonts/GothamPro.woff") format("woff"), url("/fonts/GothamPro.ttf") format("truetype"), url("/fonts/GothamPro.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GothamPro";
+  src: url("/fonts/GothamPro-Bold.eot");
+  src: local("☺"), url("/fonts/GothamPro-Bold.woff") format("woff"), url("/fonts/GothamPro-Bold.ttf") format("truetype"), url("/fonts/GothamPro-Bold.svg") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
 body {
   max-width: 100%;
   font-family: "Roboto", sans-serif;
@@ -138,9 +152,13 @@ body {
   max-height: 100%;
 }
 .partners_adress_column h4 {
+  font-family: "GothamPro";
+  font-weight: 700;
   margin: 5px 0;
 }
 .partners_adress_column p {
+  font-family: "GothamPro";
+  font-weight: 400;
   text-align: start;
   line-height: 1.2;
   font-size: 14px;
