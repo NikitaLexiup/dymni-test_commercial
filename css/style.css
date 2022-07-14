@@ -198,6 +198,14 @@ body._lock {
      object-fit: cover;
 }
 
+.logo_banner_block_mobile {
+  display: none;
+}
+
+.logo_banner_block_video {
+  display: none;
+}
+
 .cooking_history_block {
   background-color: black;
   margin: 0 auto;
@@ -226,35 +234,35 @@ body._lock {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background: url(/img/img_1.jpeg) 0 0/cover no-repeat;
+  background: url(/img/section_2/img_1.jpg) 0 0/cover no-repeat;
   width: 150px;
   height: 150px;
   border-radius: 50%;
 }
 
 .img_cooking_process_2 {
-  background: url(/img/img_2.jpeg) 0 0/cover no-repeat;
+  background: url(/img/section_2/img_2.jpg) 50% 0/cover no-repeat;
   width: 150px;
   height: 150px;
   border-radius: 50%;
 }
 
 .img_cooking_process_3 {
-  background: url(/img/img_3.jpeg) 0 0/cover no-repeat;
+  background: url(/img/section_2/img_3.jpg) 0 0/cover no-repeat;
   width: 150px;
   height: 150px;
   border-radius: 50%;
 }
 
 .img_cooking_process_4 {
-  background: url(/img/img_4.png) 0 0/cover no-repeat;
+  background: url(/img/section_2/img_4.jpg) 40% 0/cover no-repeat;
   width: 150px;
   height: 150px;
   border-radius: 50%;
 }
 
 .img_cooking_process_5 {
-  background: url(/img/img_4.png) 0 0/cover no-repeat;
+  background: url(/img/section_2/img_5.jpg) 0 95%/cover no-repeat;
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -285,7 +293,11 @@ body._lock {
 
 .page__section_3 {
   width: 100%;
-  background-color: rgba(221, 218, 218, 0.9529411765);
+  background: url("/img/bg_block_smoking.jpg") 0 0/cover no-repeat;
+}
+
+.smoking_history_block_bg_color {
+  background-color: rgba(0, 0, 0, 0.433);
 }
 
 .smoking_history_block {
@@ -432,16 +444,16 @@ body._lock {
 }
 
 .img_block_1 {
-  background: url(/img/test_img_1.jpeg) bottom/cover no-repeat;
+  background: url(/img/section_1/img_1_section_1.jpeg) bottom/cover no-repeat;
   width: 50%;
-  max-height: 300px;
+  max-height: 350px;
   margin: 15px;
 }
 
 .img_block_2 {
-  background: url(/img/test_img_2.jpeg) center/cover no-repeat;
+  background: url(/img/section_1/img_2_section_1.jpg) center/cover no-repeat;
   width: 50%;
-  max-height: 500px;
+  max-height: 350px;
   margin: 15px;
 }
 
@@ -628,6 +640,7 @@ body._lock {
 }
 
 .partners_block {
+  max-width: 1200px;
   margin: 0 auto;
   padding: 75px 0;
 }
@@ -637,8 +650,8 @@ body._lock {
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  -ms-grid-rows: 100px 100px 100px 100px;
-  grid-template-rows: 100px 100px 100px 100px;
+  -ms-grid-rows: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
 }
 
 .partners_grid_container > *:nth-child(1) {
@@ -701,26 +714,6 @@ body._lock {
   -ms-grid-column: 4;
 }
 
-.partners_grid_container > *:nth-child(13) {
-  -ms-grid-row: 4;
-  -ms-grid-column: 1;
-}
-
-.partners_grid_container > *:nth-child(14) {
-  -ms-grid-row: 4;
-  -ms-grid-column: 2;
-}
-
-.partners_grid_container > *:nth-child(15) {
-  -ms-grid-row: 4;
-  -ms-grid-column: 3;
-}
-
-.partners_grid_container > *:nth-child(16) {
-  -ms-grid-row: 4;
-  -ms-grid-column: 4;
-}
-
 .logo_partners_item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -738,6 +731,15 @@ body._lock {
   display: -ms-flexbox;
   display: flex;
   max-width: 200px;
+}
+
+.logo_partners_item_setup {
+  width: 300px;
+  max-height: 100px;
+}
+
+.logo_partners_item_setup-lavka_tradiciy {
+  width: 100px;
 }
 
 .view_more_btn_container {
