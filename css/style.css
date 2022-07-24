@@ -659,7 +659,7 @@ body._lock {
 .partners_block {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 75px 0;
+  padding: 75px 0 0 0;
 }
 
 .partners_grid_container {
@@ -871,6 +871,9 @@ body._lock {
           flex-direction: row;
   max-width: 50%;
   margin: 20px;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px;
 }
 
 .about_block_title {
