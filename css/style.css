@@ -831,3 +831,69 @@ body._lock {
           transform: rotate(90deg);
   margin: 0 10px;
 }
+
+.page__section_6 {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 70px;
+}
+
+.about_block_img {
+  max-width: 50%;
+  margin: 20px;
+}
+
+.about_img {
+  max-width: 400px;
+}
+
+.about_block_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  max-width: 50%;
+  margin: 20px;
+}
+
+.about_block_title {
+  font-family: "GothamPro";
+  font-weight: 500;
+  font-size: 28px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-width: 100%;
+  padding-bottom: 30px;
+}
+
+.about_block_subtitle {
+  font-family: "GothamPro";
+  font-weight: 400;
+  font-size: 18px;
+  min-width: 100%;
+  text-align: end;
+}
