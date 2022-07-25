@@ -172,7 +172,7 @@ body._lock {
 }
 
 .text_logo_banner {
-  font-family: "Amatic SC", cursive;
+  font-family: "GothamPro";
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -182,8 +182,8 @@ body._lock {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-size: 24px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 400;
   color: #ffffff;
   padding: 50px;
 }
