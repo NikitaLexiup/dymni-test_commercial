@@ -103,7 +103,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   font-style: normal;
 }
-@media (max-width: 1860px) {
+@media (max-width: 1600px) {
   .full_screen__video {
     top: 0;
     left: 0;
