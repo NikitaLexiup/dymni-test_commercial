@@ -458,8 +458,8 @@ body._lock {
 }
 
 .title {
-  font-family: "Amatic SC", cursive;
-  font-size: 48px;
+  font-family: "GothamPro";
+  font-size: 36px;
   text-align: center;
   font-weight: 700;
   margin: 0 0 20px 0;
@@ -536,8 +536,8 @@ body._lock {
 }
 
 .discription_title {
-  font-family: "Amatic SC", cursive;
-  font-size: 24px;
+  font-family: "GothamPro";
+  font-size: 20px;
   font-weight: 700;
   margin: 0 0 20px 0;
   padding: 10px 0 0 0;

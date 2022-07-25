@@ -120,12 +120,12 @@ h1, h2, h3, h4, h5, h6 {
           justify-content: flex-start;
 }
 
-._mod_products_container {
-max-width: 1200px;
-}
-
 .product_container-product_page {
   max-width: 200px;
+}
+
+._mod_products_container {
+  max-width: 1200px;
 }
 
 .subtitle-product_page {
