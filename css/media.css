@@ -104,6 +104,11 @@ h1, h2, h3, h4, h5, h6 {
   font-style: normal;
 }
 @media (max-width: 1600px) {
+  
+  .logo_banner_block {
+    position: relative;
+    min-height: 700px;}
+  
   .full_screen__video {
     top: 0;
     left: 0;
