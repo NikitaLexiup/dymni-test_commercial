@@ -108,7 +108,9 @@ h1, h2, h3, h4, h5, h6 {
     top: 0;
     left: 0;
     max-width: 100%;
-    max-height: 100%;
+    max-height: 800px;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 
   .logo_banner_block {
@@ -372,8 +374,12 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .about_block_title {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.2;
+  }
+
+  .bout_block_subtitle {
+    font-size: 16px;
   }
 }
 @media (min-width: 991px) {
@@ -476,16 +482,16 @@ h1, h2, h3, h4, h5, h6 {
 
   .about_block_text {
     max-width: 100%;
-    margin: 10px;
+    margin: 10px 10px 0 10px;
   }
 
   .about_block_title {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.2;
   }
 
   .about_block_subtitle {
-    font-size: 18px;
+    font-size: 14px;
     margin-bottom: 30px;
   }
 }
