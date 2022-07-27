@@ -113,11 +113,15 @@ h1, h2, h3, h4, h5, h6 {
   }
   
   .content_body {
-        max-height: 700px;
+    height: 700px;
   }
 
   .logo_banner_block {
    height: 700px;
+  }
+
+  .video_block {
+    height: 700px;
   }
 }
 @media (max-width: 991px) {
