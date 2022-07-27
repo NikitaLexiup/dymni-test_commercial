@@ -103,6 +103,29 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   font-style: normal;
 }
+@media (min-width: 1601px) {
+  .full_screen__video {
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    height: 700px;
+
+  }
+  
+  .content_body {
+    height: 700px;
+  }
+
+  .logo_banner_block {
+   height: 700px;
+  }
+
+  .video_block {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+}
 @media (max-width: 1600px) {
   .full_screen__video {
     top: 0;
