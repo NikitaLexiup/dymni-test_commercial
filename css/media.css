@@ -108,12 +108,16 @@ h1, h2, h3, h4, h5, h6 {
     top: 0;
     left: 0;
     max-width: 100%;
-    max-height: 200px;
-   
+    max-height: 700px;
+
+  }
+  
+  .content_body {
+        max-height: 100px;
   }
 
   .logo_banner_block {
-    max-height: 400px;
+    max-height: 700px;
   }
 }
 @media (max-width: 991px) {
