@@ -119,7 +119,6 @@ body._lock {
 
 .logo_banner_block {
   position: relative;
-  /* min-height: 100vh; */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
